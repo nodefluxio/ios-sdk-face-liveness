@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.documentation_url  = "..."
     spec.license            = { :type => "MIT" }
     spec.author             = { "Nodeflux" => "developer@nodeflux.io" }
-    spec.source             = { :git => 'https://github.com/nodefluxio/ios-sdk-face-liveness.git', :tag => spec.version }
+    spec.source             = { :git => 'https://github.com/nodefluxio/ios-sdk-face-liveness.git', :tag => "#{spec.version}" }
     spec.swift_version      = "5.3"
   
     # Supported deployment targets
