@@ -17,5 +17,5 @@ Pod::Spec.new do |spec|
     spec.dependency 'GoogleMLKit/FaceDetection', '~> 2.5.0'
   
     # Published binaries
-    spec.ios.vendored_frameworks = "LivenessSDK.xcframework"
+    spec.vendored_frameworks = "LivenessSDK.xcframework"
   end
