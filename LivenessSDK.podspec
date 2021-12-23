@@ -19,4 +19,6 @@ Pod::Spec.new do |spec|
 
     # pod depedency
     spec.dependency 'GoogleMLKit/FaceDetection', '~> 2.5.0'
+    spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+
 end
