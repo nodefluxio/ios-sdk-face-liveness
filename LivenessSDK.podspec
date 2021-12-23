@@ -9,13 +9,14 @@ Pod::Spec.new do |spec|
     spec.author             = { "Nodeflux" => "developer@nodeflux.io" }
     spec.source             = { :git => 'https://github.com/nodefluxio/ios-sdk-face-liveness.git', :tag => "#{spec.version}" }
     spec.swift_version      = "5.3"
-  
+
+    # Published binaries
+    spec.vendored_frameworks = 'LivenessSDK.xcframework'
+    spec.preserve_paths = 'LivenessSDK.xcframework'
+
     # Supported deployment targets
-    spec.ios.deployment_target  = "13.0"
+    spec.platform  = :ios, "13.0"
 
     # pod depedency
     spec.dependency 'GoogleMLKit/FaceDetection', '~> 2.5.0'
-  
-    # Published binaries
-    spec.vendored_frameworks = "LivenessSDK.xcframework"
-  end
+end
