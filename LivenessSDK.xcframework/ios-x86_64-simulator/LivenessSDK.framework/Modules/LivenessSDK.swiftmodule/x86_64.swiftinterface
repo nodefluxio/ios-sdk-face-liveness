@@ -12,16 +12,9 @@ import MLKitVision
 import Swift
 import UIKit
 import _Concurrency
+import os.log
+import os
 import simd
-@_hasMissingDesignatedInitializers public class InteractionUtility {
-  public func processValidation() -> Swift.Bool
-  public func checkInteraction() -> Swift.Bool
-  public func interactionActivity(face: MLKitFaceDetection.Face)
-  public func checkCurrentState() -> LivenessSDK.instruction
-  public func generateRandomSequence()
-  public func checkFrontalFace(reference: MLKitFaceDetection.Face) -> Swift.Bool
-  @objc deinit
-}
 public protocol SDKViewControllerDelegate {
   func onSuccess(score: Swift.Float, isLive: Swift.Bool, images: [Swift.String])
   func onError(message: Swift.String, errors: [Swift.String : Any])
