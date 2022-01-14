@@ -16,7 +16,7 @@ import os.log
 import os
 import simd
 public protocol SDKViewControllerDelegate {
-  func onSuccess(score: Swift.Float, isLive: Swift.Bool, images: [Swift.String])
+  func onSuccess(score: Swift.Double, isLive: Swift.Bool, images: [Swift.String])
   func onError(message: Swift.String, errors: [Swift.String : Any])
   func onSuccessWithSubmissionToken(jobID: Swift.String, images: [Swift.String])
 }
