@@ -33,7 +33,7 @@ Alternatively, you can download the [latest iOS Liveness framework](https://gith
 
 ## Going Live
 
-Before you submit to the App Store, follow the steps in the Identifai dashboard to get ready for using Button in production!
+Before you submit to the App Store, follow the steps in the Identifai dashboard to get ready for using Nodeflux iOS Liveness SDK in production!
 
 ## Questions?
 
