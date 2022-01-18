@@ -37,4 +37,4 @@ Before you submit to the App Store, follow the steps in the Identifai dashboard 
 
 ## Questions?
 
-Ask us! Drop us an email at <a href="mailto:developer@nodeflux.io">developers@nodeflux.io</a> or submit issue to this github page, our developers will get in touch with you ASAP.
+Ask us! Drop us an email at <a href="mailto:developer@nodeflux.io">developer@nodeflux.io</a> or submit issue to this github page, our developers will get in touch with you ASAP.
