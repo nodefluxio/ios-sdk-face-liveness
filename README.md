@@ -1,3 +1,7 @@
+<p align="center">
+<img src="assets/github-banner.png"/>
+</p>
+
 # Nodeflux iOS Face Liveness SDK
 
 ## Authenticate Your Customer's Face Liveness
@@ -29,11 +33,11 @@ Alternatively, you can download the [latest iOS Liveness framework](https://gith
 
 1. Get a Nodeflux Credential (Access Key and Secret Ket) by using this step: [docs.identifai.id](https://docs.identifai.id/api-documentation/get-access-key)
 
-2. Follow the Integration Guide(T.B.D)</a>.
+2. Follow the [Integration Guide](https://docs.identifai.id/sdk-documentation/active-liveness-ios-sdk/beta-active-liveness-ios-sdk-basic-implementation)
 
-## Going Live
+<!-- ## Going Live
 
-Before you submit to the App Store, follow the steps in the Identifai dashboard to get ready for using Nodeflux iOS Liveness SDK in production!
+Before you submit to the App Store, follow the steps in the Identifai dashboard to get ready for using Nodeflux iOS Liveness SDK in production! -->
 
 ## Questions?
 
