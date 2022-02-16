@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
     spec.preserve_paths = 'LivenessSDK.xcframework'
 
     # Supported deployment targets
-    spec.platform  = :ios, "13.0"
+    spec.platform  = :ios, "11.0"
 
     # pod depedency
     spec.dependency 'GoogleMLKit/FaceDetection', '~> 2.5.0'
