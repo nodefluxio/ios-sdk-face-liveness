@@ -18,7 +18,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/Info.plist</key>
 		<data>
-		FIlh+yhKckZrpN78FsJQA3ZwuKo=
+		YB3SmUFH3UMcSIyG1JKIc3XkfqM=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		3XHlCo13qDO39UourYGKdhwDf2M=
+		5+vZ60Y6ZVZ+vzVvVikFU0yAohg=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		PlSSvvAvU/grTYwhxvlFE9bl+P8=
+		653Th/gv22HQLbHDH/WF3Igz2m4=
 		</data>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -82,31 +82,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PmoSP8olA3kKgXngSdizFAPO5Vk=
+		8ZZ1ol891fNffbJ9pi4iXV/h1ko=
 		</data>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		FJ0ZZL6sTI/898vLvE7oC9vDoPA=
+		getxb58hGYBI7sfZZujaaC7ONys=
 		</data>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		o3t4WIpuoB1ujnzas8LiPZNbcbc=
+		q/G6UvQVAmvdMd4NcdEHonz1UKY=
 		</data>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		MzdwXz3hXkMIRZ5BE/NI4rPesnk=
+		1PE/6qwFUSUDLkAhc9sxomUFUiQ=
 		</data>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		FJ0ZZL6sTI/898vLvE7oC9vDoPA=
+		getxb58hGYBI7sfZZujaaC7ONys=
 		</data>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		o3t4WIpuoB1ujnzas8LiPZNbcbc=
+		q/G6UvQVAmvdMd4NcdEHonz1UKY=
 		</data>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		MzdwXz3hXkMIRZ5BE/NI4rPesnk=
+		1PE/6qwFUSUDLkAhc9sxomUFUiQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -144,7 +144,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f6Xm3CuQWrB2OEKHSi1RUuPjJnFr7zsnp2PKX2RBqs0=
+			NqsOQdX8o6v/9yeUg67+Y5+RGUIKygs/BRgBkA+LZwE=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/LMprec_600.emd</key>
@@ -172,7 +172,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oHYKkgoLnPaZF2WJmO8EFKFic7aBG2PbY7s4B2WynXU=
+			iqCANsjKSbjdh6/7YxkpBEA99xlgxR1aYrJrPR37jRU=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeRequirements</key>
@@ -186,7 +186,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nEclsGtGb5jsBswsGSYpaNE6ExxJlf+0ytVKtjJtfH8=
+			fh8xWTTO9yDQRuUPgp51FOMYaW1pkqNDpoTf/azJ15I=
 			</data>
 		</dict>
 		<key>GoogleMVFaceDetectorResources.bundle/_CodeSignature/CodeResources</key>
@@ -256,42 +256,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ulWDBWxejjARu69VxSBFMb263RCJEMYrRkHpdRZMWrQ=
+			W394xp/wRBVV9O17YCHiWbEgV0TmJXechPRTDEtx6KA=
 			</data>
 		</dict>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JHG+QDlEB2JALkdRawQepBNs0uC9JNurAFEphF1mnJ8=
+			rrdrnCage33HiLNjw+EtRbJErXVB+HfFehzHQOfWwNY=
 			</data>
 		</dict>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XLpvEcsv8tqfVzulJ86PZ6dYvJD3YOPqWIRcYvTEVMg=
+			o9avECvV98d4mAuFsjSDNE1a/HN3ryKQboPrxVO129w=
 			</data>
 		</dict>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ulWDBWxejjARu69VxSBFMb263RCJEMYrRkHpdRZMWrQ=
+			W394xp/wRBVV9O17YCHiWbEgV0TmJXechPRTDEtx6KA=
 			</data>
 		</dict>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JHG+QDlEB2JALkdRawQepBNs0uC9JNurAFEphF1mnJ8=
+			rrdrnCage33HiLNjw+EtRbJErXVB+HfFehzHQOfWwNY=
 			</data>
 		</dict>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XLpvEcsv8tqfVzulJ86PZ6dYvJD3YOPqWIRcYvTEVMg=
+			o9avECvV98d4mAuFsjSDNE1a/HN3ryKQboPrxVO129w=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
