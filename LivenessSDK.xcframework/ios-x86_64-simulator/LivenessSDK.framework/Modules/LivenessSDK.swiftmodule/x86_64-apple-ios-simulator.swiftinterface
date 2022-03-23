@@ -22,6 +22,18 @@ public protocol SDKViewControllerDelegate {
 }
 @objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class SDKViewController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) public var delegate: LivenessSDK.SDKViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) public var overlayColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var guidanceTextColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var instructionStart: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionFinished: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionEyeBlink: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionLeftEyeBlink: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionRightEyeBlink: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionLeftOrientation: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionRightOrientation: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionNodUp: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionNodDown: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionSmile: Swift.String
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) public init(accessKey: Swift.String, secretKey: Swift.String, submissionToken: Swift.String)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
