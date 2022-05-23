@@ -35,7 +35,16 @@ public protocol SDKViewControllerDelegate {
   @_Concurrency.MainActor(unsafe) public var instructionNodDown: Swift.String
   @_Concurrency.MainActor(unsafe) public var instructionSmile: Swift.String
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) public init(accessKey: Swift.String, secretKey: Swift.String, submissionToken: Swift.String)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var shouldAutorotate: Swift.Bool {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @_Concurrency.MainActor(unsafe) public init(accessKey: Swift.String, secretKey: Swift.String, submissionToken: Swift.String, isUsingActiveLiveness: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   @objc deinit
