@@ -44,7 +44,7 @@ public protocol SDKViewControllerDelegate {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
     @_Concurrency.MainActor(unsafe) @objc get
   }
-  @_Concurrency.MainActor(unsafe) public init(accessKey: Swift.String, secretKey: Swift.String, submissionToken: Swift.String, isUsingActiveLiveness: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) public init(accessKey: Swift.String, secretKey: Swift.String, submissionToken: Swift.String, isUsingActiveLiveness: Swift.Bool, threshold: Swift.Float)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   @objc deinit
