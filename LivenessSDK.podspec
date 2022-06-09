@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name               = "LivenessSDK"
-    spec.version            = "1.2.5"
+    spec.version            = "1.2.6"
     spec.summary            = "Nodeflux Face Liveness SDK for iOS apps"
     spec.description        = "Please use this SDK to integrate your iOS App with Nodeflux Face Liveness"
     spec.homepage           = "..."
