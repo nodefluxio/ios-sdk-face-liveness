@@ -90,11 +90,11 @@
 		</data>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PmsJCHBQ8rMVKclL/BRXCqLywwk=
+		lFuPJlt9XdXIk0IPugWImAMkxZk=
 		</data>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NjRjvf4HDjkPt5gC2e76UkR+Zr0=
+		+MDG2CdI4cN/T2wjPI3d65zUWng=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -251,14 +251,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kGoVBzOXuZbZaI7tQtoj3+kAh5pOI4QDKi7evnxH148=
+			vsYkt88MBKTjiXJvkFQXJCaNbzpHlZaKJKgLAkFGUrc=
 			</data>
 		</dict>
 		<key>Modules/LivenessSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kQfb6ZFLwOomvmhJa5uwuSfK8+pGFjWSC63wIUDjSic=
+			nzn0HPi/NQWtmlu0NtUAsqJgSyoaRTSCaOT53sQIS+Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
