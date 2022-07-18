@@ -35,6 +35,22 @@ Alternatively, you can download the [latest iOS Liveness framework](https://gith
 
 2. Follow the [Integration Guide](https://docs.identifai.id/sdk-documentation/active-liveness-ios-sdk/beta-active-liveness-ios-sdk-basic-implementation)
 
+## Configure Nodeflux Face Liveness SDK
+
+Before you start Nodeflux Liveness SDK Activity, if you want to change any sdk default settings, specify those settings with NodefluxLivenessSDKOptions Object. You can change the following settings:
+
+| Settings                     | Data Type | Descriptions                                                      | Default Value |
+| ---------------------------- |:---------:| -----------------------------------------------------------------:| ------------- |
+| setAccessKey                 | String    | optional (required if you using basic implementation)             | nil           |
+| setSecretKey                 | String    | optional (required if you using basic implementation)             | nil           |
+| setSubmissionToken           | String    | optional (required if you using submission_token implementation)  | nil           |
+| setThreshold                 | Float     | optional (number of threshold for acceptence score)               | 0.7           |
+| setActiveLivenessFlag        | Bool      | optional (boolean flag to activate or deactivate active liveness) | true          |
+| setImageQualityFilter        | Bool      | optional (boolean flag to activate or deactivate iqa )            | nil           |
+| setImageQualityAssessment    | String    | optional (custom value for iqa parameter)                         | nil           |
+| setTimeoutThreshold          | Int       | optional (millisecond value of active liveness duration)          | 15000         |
+| setGestureToleranceThreshold | Int       | optional (millisecond value of each gesture tollerance)           | 3000          |
+
 <!-- ## Going Live
 
 Before you submit to the App Store, follow the steps in the Identifai dashboard to get ready for using Nodeflux iOS Liveness SDK in production! -->
