@@ -24,7 +24,7 @@ The best way to get the Nodeflux iOS Liveness SDK is to use CocoaPods. If you do
 Add Button to your target by adding the following line to your `Podfile`.
 
 ```
-pod 'LivenessSDK', git: 'https://github.com/nodefluxio/ios-sdk-face-liveness.git', tag: '1.2.2'
+pod 'LivenessSDK', git: 'https://github.com/nodefluxio/ios-sdk-face-liveness.git', tag: '2.0.0'
 ```
 
 Alternatively, you can download the [latest iOS Liveness framework](https://github.com/nodefluxio/ios-sdk-face-liveness/releases/latest) and add xcframework file to your current project.
