@@ -44,6 +44,9 @@ public class SDKOption {
   public var getGestureToleranceThreshold: Swift.Int {
     get
   }
+  public var getSessionID: Swift.String? {
+    get
+  }
   public func setAccessKey(accessKey: Swift.String)
   public func setSecretKey(secretKey: Swift.String)
   public func setSubmissionToken(submissionToken: Swift.String)
@@ -53,6 +56,7 @@ public class SDKOption {
   public func setImageQualityAssessment(imageQualityAssessment: Swift.String)
   public func setTimeoutThreshold(timeoutThreshold: Swift.Int)
   public func setGestureToleranceThreshold(gestureToleranceThreshold: Swift.Int)
+  public func setSessionID(sessionID: Swift.String)
   @objc deinit
 }
 public protocol SDKViewControllerDelegate {
@@ -74,6 +78,8 @@ public protocol SDKViewControllerDelegate {
   @_Concurrency.MainActor(unsafe) public var instructionNodUp: Swift.String
   @_Concurrency.MainActor(unsafe) public var instructionNodDown: Swift.String
   @_Concurrency.MainActor(unsafe) public var instructionSmile: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionStartHold: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionRepeatFromStart: Swift.String
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public var shouldAutorotate: Swift.Bool {
     @_Concurrency.MainActor(unsafe) @objc get
@@ -96,6 +102,11 @@ public enum instruction {
   public var hashValue: Swift.Int {
     get
   }
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public func getCPUName() -> Swift.String
+  @_Concurrency.MainActor(unsafe) public func getCPUSpeed() -> Swift.String
+  @_Concurrency.MainActor(unsafe) public func getModelName() -> Swift.String
 }
 extension LivenessSDK.instruction : Swift.Equatable {}
 extension LivenessSDK.instruction : Swift.Hashable {}
