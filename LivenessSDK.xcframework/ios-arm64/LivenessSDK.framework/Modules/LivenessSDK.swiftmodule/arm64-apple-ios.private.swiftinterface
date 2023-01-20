@@ -1,0 +1,114 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LivenessSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import CoreData
+import CoreGraphics
+import CoreMedia
+import CoreVideo
+import Foundation
+import MLKitFaceDetection
+import MLKitVision
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import os.log
+import os
+import simd
+public class SDKOption {
+  public init()
+  public var getAccessKey: Swift.String? {
+    get
+  }
+  public var getSecretKey: Swift.String? {
+    get
+  }
+  public var getSubmissionToken: Swift.String? {
+    get
+  }
+  public var getThreshold: Swift.Float {
+    get
+  }
+  public var getActiveLivenessFlag: Swift.Bool {
+    get
+  }
+  public var getImageQualityFilter: Swift.Bool? {
+    get
+  }
+  public var getImageQualityAssessment: Swift.String? {
+    get
+  }
+  public var getTimeoutThreshold: Swift.Int {
+    get
+  }
+  public var getGestureToleranceThreshold: Swift.Int {
+    get
+  }
+  public var getSessionID: Swift.String? {
+    get
+  }
+  public func setAccessKey(accessKey: Swift.String)
+  public func setSecretKey(secretKey: Swift.String)
+  public func setSubmissionToken(submissionToken: Swift.String)
+  public func setThreshold(threshold: Swift.Float)
+  public func setActiveLivenessFlag(activeLivenessFlag: Swift.Bool)
+  public func setImageQualityFilter(imageQualityFilter: Swift.Bool)
+  public func setImageQualityAssessment(imageQualityAssessment: Swift.String)
+  public func setTimeoutThreshold(timeoutThreshold: Swift.Int)
+  public func setGestureToleranceThreshold(gestureToleranceThreshold: Swift.Int)
+  public func setSessionID(sessionID: Swift.String)
+  @objc deinit
+}
+public protocol SDKViewControllerDelegate {
+  func onSuccess(score: Swift.Double, isLive: Swift.Bool, images: [Swift.String])
+  func onError(message: Swift.String, errors: [Swift.String : Any])
+  func onSuccessWithSubmissionToken(jobID: Swift.String, images: [Swift.String])
+}
+@objc @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class SDKViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor(unsafe) public var delegate: LivenessSDK.SDKViewControllerDelegate?
+  @_Concurrency.MainActor(unsafe) public var overlayColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var guidanceTextColor: UIKit.UIColor
+  @_Concurrency.MainActor(unsafe) public var instructionStart: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionFinished: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionEyeBlink: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionLeftEyeBlink: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionRightEyeBlink: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionLeftOrientation: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionRightOrientation: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionNodUp: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionNodDown: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionSmile: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionStartHold: Swift.String
+  @_Concurrency.MainActor(unsafe) public var instructionRepeatFromStart: Swift.String
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var shouldAutorotate: Swift.Bool {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var supportedInterfaceOrientations: UIKit.UIInterfaceOrientationMask {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var preferredInterfaceOrientationForPresentation: UIKit.UIInterfaceOrientation {
+    @objc get
+  }
+  @_Concurrency.MainActor(unsafe) public init(sdkOptions: LivenessSDK.SDKOption)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
+  @objc deinit
+}
+public enum instruction {
+  case LEFT_ORIENTATION, RIGHT_ORIENTATION, LEFT_EYE_BLINK, RIGHT_EYE_BLINK, FINISHED, REPEAT_FROM_START_IN_1500_MS, EYE_BLINK, HOLD_STEADY, REPEAT_HOLD_STEADY_IN_3000_MS, TIME_OUT, THREE, TWO, ONE, TO_THREE, TO_TWO, TO_ONE, SHAKE_LEFT, SHAKE_RIGHT, NOD_UP, NOD_DOWN, SMILE, NOT_SMILE, START, START_HOLD
+  public static func == (a: LivenessSDK.instruction, b: LivenessSDK.instruction) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor(unsafe) public func getCPUName() -> Swift.String
+  @_Concurrency.MainActor(unsafe) public func getCPUSpeed() -> Swift.String
+  @_Concurrency.MainActor(unsafe) public func getModelName() -> Swift.String
+}
+extension LivenessSDK.instruction : Swift.Equatable {}
+extension LivenessSDK.instruction : Swift.Hashable {}

@@ -1,0 +1,4505 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKOption",
+        "printedName": "SDKOption",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKOption",
+                "printedName": "LivenessSDK.SDKOption",
+                "usr": "s:11LivenessSDK9SDKOptionC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11LivenessSDK9SDKOptionCACycfc",
+            "mangledName": "$s11LivenessSDK9SDKOptionCACycfc",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "getAccessKey",
+            "printedName": "getAccessKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK9SDKOptionC12getAccessKeySSSgvp",
+            "mangledName": "$s11LivenessSDK9SDKOptionC12getAccessKeySSSgvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK9SDKOptionC12getAccessKeySSSgvg",
+                "mangledName": "$s11LivenessSDK9SDKOptionC12getAccessKeySSSgvg",
+                "moduleName": "LivenessSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getSecretKey",
+            "printedName": "getSecretKey",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK9SDKOptionC12getSecretKeySSSgvp",
+            "mangledName": "$s11LivenessSDK9SDKOptionC12getSecretKeySSSgvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK9SDKOptionC12getSecretKeySSSgvg",
+                "mangledName": "$s11LivenessSDK9SDKOptionC12getSecretKeySSSgvg",
+                "moduleName": "LivenessSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getSubmissionToken",
+            "printedName": "getSubmissionToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK9SDKOptionC18getSubmissionTokenSSSgvp",
+            "mangledName": "$s11LivenessSDK9SDKOptionC18getSubmissionTokenSSSgvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK9SDKOptionC18getSubmissionTokenSSSgvg",
+                "mangledName": "$s11LivenessSDK9SDKOptionC18getSubmissionTokenSSSgvg",
+                "moduleName": "LivenessSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getThreshold",
+            "printedName": "getThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK9SDKOptionC12getThresholdSfvp",
+            "mangledName": "$s11LivenessSDK9SDKOptionC12getThresholdSfvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK9SDKOptionC12getThresholdSfvg",
+                "mangledName": "$s11LivenessSDK9SDKOptionC12getThresholdSfvg",
+                "moduleName": "LivenessSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getActiveLivenessFlag",
+            "printedName": "getActiveLivenessFlag",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK9SDKOptionC09getActiveA4FlagSbvp",
+            "mangledName": "$s11LivenessSDK9SDKOptionC09getActiveA4FlagSbvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK9SDKOptionC09getActiveA4FlagSbvg",
+                "mangledName": "$s11LivenessSDK9SDKOptionC09getActiveA4FlagSbvg",
+                "moduleName": "LivenessSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getImageQualityFilter",
+            "printedName": "getImageQualityFilter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK9SDKOptionC21getImageQualityFilterSbSgvp",
+            "mangledName": "$s11LivenessSDK9SDKOptionC21getImageQualityFilterSbSgvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK9SDKOptionC21getImageQualityFilterSbSgvg",
+                "mangledName": "$s11LivenessSDK9SDKOptionC21getImageQualityFilterSbSgvg",
+                "moduleName": "LivenessSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getImageQualityAssessment",
+            "printedName": "getImageQualityAssessment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK9SDKOptionC25getImageQualityAssessmentSSSgvp",
+            "mangledName": "$s11LivenessSDK9SDKOptionC25getImageQualityAssessmentSSSgvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK9SDKOptionC25getImageQualityAssessmentSSSgvg",
+                "mangledName": "$s11LivenessSDK9SDKOptionC25getImageQualityAssessmentSSSgvg",
+                "moduleName": "LivenessSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getTimeoutThreshold",
+            "printedName": "getTimeoutThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK9SDKOptionC19getTimeoutThresholdSivp",
+            "mangledName": "$s11LivenessSDK9SDKOptionC19getTimeoutThresholdSivp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK9SDKOptionC19getTimeoutThresholdSivg",
+                "mangledName": "$s11LivenessSDK9SDKOptionC19getTimeoutThresholdSivg",
+                "moduleName": "LivenessSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getGestureToleranceThreshold",
+            "printedName": "getGestureToleranceThreshold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK9SDKOptionC28getGestureToleranceThresholdSivp",
+            "mangledName": "$s11LivenessSDK9SDKOptionC28getGestureToleranceThresholdSivp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK9SDKOptionC28getGestureToleranceThresholdSivg",
+                "mangledName": "$s11LivenessSDK9SDKOptionC28getGestureToleranceThresholdSivg",
+                "moduleName": "LivenessSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "getSessionID",
+            "printedName": "getSessionID",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK9SDKOptionC12getSessionIDSSSgvp",
+            "mangledName": "$s11LivenessSDK9SDKOptionC12getSessionIDSSSgvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK9SDKOptionC12getSessionIDSSSgvg",
+                "mangledName": "$s11LivenessSDK9SDKOptionC12getSessionIDSSSgvg",
+                "moduleName": "LivenessSDK",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setAccessKey",
+            "printedName": "setAccessKey(accessKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK9SDKOptionC12setAccessKey06accessF0ySS_tF",
+            "mangledName": "$s11LivenessSDK9SDKOptionC12setAccessKey06accessF0ySS_tF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSecretKey",
+            "printedName": "setSecretKey(secretKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK9SDKOptionC12setSecretKey06secretF0ySS_tF",
+            "mangledName": "$s11LivenessSDK9SDKOptionC12setSecretKey06secretF0ySS_tF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSubmissionToken",
+            "printedName": "setSubmissionToken(submissionToken:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK9SDKOptionC18setSubmissionToken010submissionF0ySS_tF",
+            "mangledName": "$s11LivenessSDK9SDKOptionC18setSubmissionToken010submissionF0ySS_tF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setThreshold",
+            "printedName": "setThreshold(threshold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK9SDKOptionC12setThreshold9thresholdySf_tF",
+            "mangledName": "$s11LivenessSDK9SDKOptionC12setThreshold9thresholdySf_tF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setActiveLivenessFlag",
+            "printedName": "setActiveLivenessFlag(activeLivenessFlag:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK9SDKOptionC09setActiveA4Flag06activeaF0ySb_tF",
+            "mangledName": "$s11LivenessSDK9SDKOptionC09setActiveA4Flag06activeaF0ySb_tF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setImageQualityFilter",
+            "printedName": "setImageQualityFilter(imageQualityFilter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK9SDKOptionC21setImageQualityFilter05imagefG0ySb_tF",
+            "mangledName": "$s11LivenessSDK9SDKOptionC21setImageQualityFilter05imagefG0ySb_tF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setImageQualityAssessment",
+            "printedName": "setImageQualityAssessment(imageQualityAssessment:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK9SDKOptionC25setImageQualityAssessment05imagefG0ySS_tF",
+            "mangledName": "$s11LivenessSDK9SDKOptionC25setImageQualityAssessment05imagefG0ySS_tF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setTimeoutThreshold",
+            "printedName": "setTimeoutThreshold(timeoutThreshold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK9SDKOptionC19setTimeoutThreshold07timeoutF0ySi_tF",
+            "mangledName": "$s11LivenessSDK9SDKOptionC19setTimeoutThreshold07timeoutF0ySi_tF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setGestureToleranceThreshold",
+            "printedName": "setGestureToleranceThreshold(gestureToleranceThreshold:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK9SDKOptionC28setGestureToleranceThreshold07gesturefG0ySi_tF",
+            "mangledName": "$s11LivenessSDK9SDKOptionC28setGestureToleranceThreshold07gesturefG0ySi_tF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setSessionID",
+            "printedName": "setSessionID(sessionID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK9SDKOptionC12setSessionID07sessionF0ySS_tF",
+            "mangledName": "$s11LivenessSDK9SDKOptionC12setSessionID07sessionF0ySS_tF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11LivenessSDK9SDKOptionC",
+        "mangledName": "$s11LivenessSDK9SDKOptionC",
+        "moduleName": "LivenessSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreData",
+        "printedName": "CoreData",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "simd",
+        "printedName": "simd",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitFaceDetection",
+        "printedName": "MLKitFaceDetection",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitVision",
+        "printedName": "MLKitVision",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitFaceDetection",
+        "printedName": "MLKitFaceDetection",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "MLKitVision",
+        "printedName": "MLKitVision",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreGraphics",
+        "printedName": "CoreGraphics",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKViewControllerDelegate",
+        "printedName": "SDKViewControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "onSuccess",
+            "printedName": "onSuccess(score:isLive:images:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK25SDKViewControllerDelegateP9onSuccess5score6isLive6imagesySd_SbSaySSGtF",
+            "mangledName": "$s11LivenessSDK25SDKViewControllerDelegateP9onSuccess5score6isLive6imagesySd_SbSaySSGtF",
+            "moduleName": "LivenessSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : LivenessSDK.SDKViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : LivenessSDK.SDKViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onError",
+            "printedName": "onError(message:errors:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK25SDKViewControllerDelegateP7onError7message6errorsySS_SDySSypGtF",
+            "mangledName": "$s11LivenessSDK25SDKViewControllerDelegateP7onError7message6errorsySS_SDySSypGtF",
+            "moduleName": "LivenessSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : LivenessSDK.SDKViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : LivenessSDK.SDKViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onSuccessWithSubmissionToken",
+            "printedName": "onSuccessWithSubmissionToken(jobID:images:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK25SDKViewControllerDelegateP28onSuccessWithSubmissionToken5jobID6imagesySS_SaySSGtF",
+            "mangledName": "$s11LivenessSDK25SDKViewControllerDelegateP28onSuccessWithSubmissionToken5jobID6imagesySS_SaySSGtF",
+            "moduleName": "LivenessSDK",
+            "genericSig": "<τ_0_0 where τ_0_0 : LivenessSDK.SDKViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : LivenessSDK.SDKViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11LivenessSDK25SDKViewControllerDelegateP",
+        "mangledName": "$s11LivenessSDK25SDKViewControllerDelegateP",
+        "moduleName": "LivenessSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SDKViewController",
+        "printedName": "SDKViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LivenessSDK.SDKViewControllerDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKViewControllerDelegate",
+                    "printedName": "LivenessSDK.SDKViewControllerDelegate",
+                    "usr": "s:11LivenessSDK25SDKViewControllerDelegateP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC8delegateAA0cD8Delegate_pSgvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC8delegateAA0cD8Delegate_pSgvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LivenessSDK.SDKViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKViewControllerDelegate",
+                        "printedName": "LivenessSDK.SDKViewControllerDelegate",
+                        "usr": "s:11LivenessSDK25SDKViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC8delegateAA0cD8Delegate_pSgvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC8delegateAA0cD8Delegate_pSgvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LivenessSDK.SDKViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKViewControllerDelegate",
+                        "printedName": "LivenessSDK.SDKViewControllerDelegate",
+                        "usr": "s:11LivenessSDK25SDKViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC8delegateAA0cD8Delegate_pSgvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC8delegateAA0cD8Delegate_pSgvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC8delegateAA0cD8Delegate_pSgvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC8delegateAA0cD8Delegate_pSgvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "overlayColor",
+            "printedName": "overlayColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC12overlayColorSo7UIColorCvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC12overlayColorSo7UIColorCvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC12overlayColorSo7UIColorCvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC12overlayColorSo7UIColorCvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC12overlayColorSo7UIColorCvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC12overlayColorSo7UIColorCvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC12overlayColorSo7UIColorCvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC12overlayColorSo7UIColorCvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "guidanceTextColor",
+            "printedName": "guidanceTextColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC17guidanceTextColorSo7UIColorCvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC17guidanceTextColorSo7UIColorCvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC17guidanceTextColorSo7UIColorCvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC17guidanceTextColorSo7UIColorCvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIColor",
+                    "printedName": "UIKit.UIColor",
+                    "usr": "c:objc(cs)UIColor"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC17guidanceTextColorSo7UIColorCvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC17guidanceTextColorSo7UIColorCvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC17guidanceTextColorSo7UIColorCvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC17guidanceTextColorSo7UIColorCvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionStart",
+            "printedName": "instructionStart",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC16instructionStartSSvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC16instructionStartSSvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC16instructionStartSSvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC16instructionStartSSvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC16instructionStartSSvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC16instructionStartSSvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC16instructionStartSSvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC16instructionStartSSvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionFinished",
+            "printedName": "instructionFinished",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC19instructionFinishedSSvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC19instructionFinishedSSvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC19instructionFinishedSSvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC19instructionFinishedSSvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC19instructionFinishedSSvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC19instructionFinishedSSvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC19instructionFinishedSSvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC19instructionFinishedSSvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionEyeBlink",
+            "printedName": "instructionEyeBlink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC19instructionEyeBlinkSSvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC19instructionEyeBlinkSSvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC19instructionEyeBlinkSSvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC19instructionEyeBlinkSSvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC19instructionEyeBlinkSSvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC19instructionEyeBlinkSSvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC19instructionEyeBlinkSSvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC19instructionEyeBlinkSSvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionLeftEyeBlink",
+            "printedName": "instructionLeftEyeBlink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC23instructionLeftEyeBlinkSSvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC23instructionLeftEyeBlinkSSvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC23instructionLeftEyeBlinkSSvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC23instructionLeftEyeBlinkSSvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC23instructionLeftEyeBlinkSSvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC23instructionLeftEyeBlinkSSvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC23instructionLeftEyeBlinkSSvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC23instructionLeftEyeBlinkSSvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionRightEyeBlink",
+            "printedName": "instructionRightEyeBlink",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC24instructionRightEyeBlinkSSvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC24instructionRightEyeBlinkSSvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC24instructionRightEyeBlinkSSvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC24instructionRightEyeBlinkSSvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC24instructionRightEyeBlinkSSvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC24instructionRightEyeBlinkSSvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC24instructionRightEyeBlinkSSvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC24instructionRightEyeBlinkSSvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionLeftOrientation",
+            "printedName": "instructionLeftOrientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC26instructionLeftOrientationSSvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC26instructionLeftOrientationSSvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC26instructionLeftOrientationSSvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC26instructionLeftOrientationSSvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC26instructionLeftOrientationSSvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC26instructionLeftOrientationSSvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC26instructionLeftOrientationSSvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC26instructionLeftOrientationSSvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionRightOrientation",
+            "printedName": "instructionRightOrientation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC27instructionRightOrientationSSvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC27instructionRightOrientationSSvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC27instructionRightOrientationSSvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC27instructionRightOrientationSSvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC27instructionRightOrientationSSvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC27instructionRightOrientationSSvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC27instructionRightOrientationSSvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC27instructionRightOrientationSSvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionNodUp",
+            "printedName": "instructionNodUp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC16instructionNodUpSSvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC16instructionNodUpSSvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC16instructionNodUpSSvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC16instructionNodUpSSvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC16instructionNodUpSSvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC16instructionNodUpSSvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC16instructionNodUpSSvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC16instructionNodUpSSvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionNodDown",
+            "printedName": "instructionNodDown",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC18instructionNodDownSSvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC18instructionNodDownSSvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC18instructionNodDownSSvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC18instructionNodDownSSvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC18instructionNodDownSSvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC18instructionNodDownSSvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC18instructionNodDownSSvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC18instructionNodDownSSvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionSmile",
+            "printedName": "instructionSmile",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC16instructionSmileSSvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC16instructionSmileSSvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC16instructionSmileSSvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC16instructionSmileSSvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC16instructionSmileSSvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC16instructionSmileSSvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC16instructionSmileSSvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC16instructionSmileSSvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionStartHold",
+            "printedName": "instructionStartHold",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC20instructionStartHoldSSvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC20instructionStartHoldSSvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC20instructionStartHoldSSvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC20instructionStartHoldSSvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC20instructionStartHoldSSvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC20instructionStartHoldSSvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC20instructionStartHoldSSvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC20instructionStartHoldSSvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "instructionRepeatFromStart",
+            "printedName": "instructionRepeatFromStart",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK17SDKViewControllerC26instructionRepeatFromStartSSvp",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC26instructionRepeatFromStartSSvp",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC26instructionRepeatFromStartSSvg",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC26instructionRepeatFromStartSSvg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC26instructionRepeatFromStartSSvs",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC26instructionRepeatFromStartSSvs",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK17SDKViewControllerC26instructionRepeatFromStartSSvM",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC26instructionRepeatFromStartSSvM",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController(im)viewDidLoad",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC11viewDidLoadyyF",
+            "moduleName": "LivenessSDK",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAutorotate",
+            "printedName": "shouldAutorotate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController(py)shouldAutorotate",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC16shouldAutorotateSbvp",
+            "moduleName": "LivenessSDK",
+            "overriding": true,
+            "objc_name": "shouldAutorotate",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController(im)shouldAutorotate",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC16shouldAutorotateSbvg",
+                "moduleName": "LivenessSDK",
+                "overriding": true,
+                "objc_name": "shouldAutorotate",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "supportedInterfaceOrientations",
+            "printedName": "supportedInterfaceOrientations",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController(py)supportedInterfaceOrientations",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvp",
+            "moduleName": "LivenessSDK",
+            "overriding": true,
+            "objc_name": "supportedInterfaceOrientations",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientationMask",
+                    "printedName": "UIKit.UIInterfaceOrientationMask",
+                    "usr": "c:@E@UIInterfaceOrientationMask"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController(im)supportedInterfaceOrientations",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC30supportedInterfaceOrientationsSo26UIInterfaceOrientationMaskVvg",
+                "moduleName": "LivenessSDK",
+                "overriding": true,
+                "objc_name": "supportedInterfaceOrientations",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "preferredInterfaceOrientationForPresentation",
+            "printedName": "preferredInterfaceOrientationForPresentation",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientation",
+                "printedName": "UIKit.UIInterfaceOrientation",
+                "usr": "c:@E@UIInterfaceOrientation"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController(py)preferredInterfaceOrientationForPresentation",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC44preferredInterfaceOrientationForPresentationSo011UIInterfaceG0Vvp",
+            "moduleName": "LivenessSDK",
+            "overriding": true,
+            "objc_name": "preferredInterfaceOrientationForPresentation",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "Override"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIInterfaceOrientation",
+                    "printedName": "UIKit.UIInterfaceOrientation",
+                    "usr": "c:@E@UIInterfaceOrientation"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController(im)preferredInterfaceOrientationForPresentation",
+                "mangledName": "$s11LivenessSDK17SDKViewControllerC44preferredInterfaceOrientationForPresentationSo011UIInterfaceG0Vvg",
+                "moduleName": "LivenessSDK",
+                "overriding": true,
+                "objc_name": "preferredInterfaceOrientationForPresentation",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sdkOptions:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKViewController",
+                "printedName": "LivenessSDK.SDKViewController",
+                "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SDKOption",
+                "printedName": "LivenessSDK.SDKOption",
+                "usr": "s:11LivenessSDK9SDKOptionC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11LivenessSDK17SDKViewControllerC10sdkOptionsAcA9SDKOptionC_tcfc",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC10sdkOptionsAcA9SDKOptionC_tcfc",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController(im)viewWillAppear:",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC14viewWillAppearyySbF",
+            "moduleName": "LivenessSDK",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidDisappear",
+            "printedName": "viewDidDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController(im)viewDidDisappear:",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC16viewDidDisappearyySbF",
+            "moduleName": "LivenessSDK",
+            "overriding": true,
+            "objc_name": "viewDidDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKViewController",
+                "printedName": "LivenessSDK.SDKViewController",
+                "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s11LivenessSDK17SDKViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "LivenessSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LivenessSDK@objc(cs)SDKViewController",
+        "mangledName": "$s11LivenessSDK17SDKViewControllerC",
+        "moduleName": "LivenessSDK",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "instruction",
+        "printedName": "instruction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "LEFT_ORIENTATION",
+            "printedName": "LEFT_ORIENTATION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO16LEFT_ORIENTATIONyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO16LEFT_ORIENTATIONyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "RIGHT_ORIENTATION",
+            "printedName": "RIGHT_ORIENTATION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO17RIGHT_ORIENTATIONyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO17RIGHT_ORIENTATIONyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "LEFT_EYE_BLINK",
+            "printedName": "LEFT_EYE_BLINK",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO14LEFT_EYE_BLINKyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO14LEFT_EYE_BLINKyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "RIGHT_EYE_BLINK",
+            "printedName": "RIGHT_EYE_BLINK",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO15RIGHT_EYE_BLINKyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO15RIGHT_EYE_BLINKyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "FINISHED",
+            "printedName": "FINISHED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO8FINISHEDyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO8FINISHEDyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "REPEAT_FROM_START_IN_1500_MS",
+            "printedName": "REPEAT_FROM_START_IN_1500_MS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO28REPEAT_FROM_START_IN_1500_MSyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO28REPEAT_FROM_START_IN_1500_MSyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "EYE_BLINK",
+            "printedName": "EYE_BLINK",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO9EYE_BLINKyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO9EYE_BLINKyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "HOLD_STEADY",
+            "printedName": "HOLD_STEADY",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO11HOLD_STEADYyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO11HOLD_STEADYyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "REPEAT_HOLD_STEADY_IN_3000_MS",
+            "printedName": "REPEAT_HOLD_STEADY_IN_3000_MS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO29REPEAT_HOLD_STEADY_IN_3000_MSyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO29REPEAT_HOLD_STEADY_IN_3000_MSyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "TIME_OUT",
+            "printedName": "TIME_OUT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO8TIME_OUTyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO8TIME_OUTyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "THREE",
+            "printedName": "THREE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO5THREEyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO5THREEyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "TWO",
+            "printedName": "TWO",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO3TWOyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO3TWOyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "ONE",
+            "printedName": "ONE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO3ONEyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO3ONEyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "TO_THREE",
+            "printedName": "TO_THREE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO8TO_THREEyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO8TO_THREEyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "TO_TWO",
+            "printedName": "TO_TWO",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO6TO_TWOyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO6TO_TWOyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "TO_ONE",
+            "printedName": "TO_ONE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO6TO_ONEyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO6TO_ONEyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "SHAKE_LEFT",
+            "printedName": "SHAKE_LEFT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO10SHAKE_LEFTyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO10SHAKE_LEFTyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "SHAKE_RIGHT",
+            "printedName": "SHAKE_RIGHT",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO11SHAKE_RIGHTyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO11SHAKE_RIGHTyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "NOD_UP",
+            "printedName": "NOD_UP",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO6NOD_UPyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO6NOD_UPyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "NOD_DOWN",
+            "printedName": "NOD_DOWN",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO8NOD_DOWNyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO8NOD_DOWNyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "SMILE",
+            "printedName": "SMILE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO5SMILEyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO5SMILEyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "NOT_SMILE",
+            "printedName": "NOT_SMILE",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO9NOT_SMILEyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO9NOT_SMILEyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "START",
+            "printedName": "START",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO5STARTyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO5STARTyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "START_HOLD",
+            "printedName": "START_HOLD",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(LivenessSDK.instruction.Type) -> LivenessSDK.instruction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "instruction",
+                    "printedName": "LivenessSDK.instruction",
+                    "usr": "s:11LivenessSDK11instructionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "LivenessSDK.instruction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "instruction",
+                        "printedName": "LivenessSDK.instruction",
+                        "usr": "s:11LivenessSDK11instructionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:11LivenessSDK11instructionO10START_HOLDyA2CmF",
+            "mangledName": "$s11LivenessSDK11instructionO10START_HOLDyA2CmF",
+            "moduleName": "LivenessSDK"
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "instruction",
+                "printedName": "LivenessSDK.instruction",
+                "usr": "s:11LivenessSDK11instructionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "instruction",
+                "printedName": "LivenessSDK.instruction",
+                "usr": "s:11LivenessSDK11instructionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK11instructionO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s11LivenessSDK11instructionO2eeoiySbAC_ACtFZ",
+            "moduleName": "LivenessSDK",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11LivenessSDK11instructionO9hashValueSivp",
+            "mangledName": "$s11LivenessSDK11instructionO9hashValueSivp",
+            "moduleName": "LivenessSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11LivenessSDK11instructionO9hashValueSivg",
+                "mangledName": "$s11LivenessSDK11instructionO9hashValueSivg",
+                "moduleName": "LivenessSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11LivenessSDK11instructionO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s11LivenessSDK11instructionO4hash4intoys6HasherVz_tF",
+            "moduleName": "LivenessSDK",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:11LivenessSDK11instructionO",
+        "mangledName": "$s11LivenessSDK11instructionO",
+        "moduleName": "LivenessSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LivenessSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIDevice",
+        "printedName": "UIDevice",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getCPUName",
+            "printedName": "getCPUName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIDeviceC11LivenessSDKE10getCPUNameSSyF",
+            "mangledName": "$sSo8UIDeviceC11LivenessSDKE10getCPUNameSSyF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getCPUSpeed",
+            "printedName": "getCPUSpeed()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIDeviceC11LivenessSDKE11getCPUSpeedSSyF",
+            "mangledName": "$sSo8UIDeviceC11LivenessSDKE11getCPUSpeedSSyF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getModelName",
+            "printedName": "getModelName()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So8UIDeviceC11LivenessSDKE12getModelNameSSyF",
+            "mangledName": "$sSo8UIDeviceC11LivenessSDKE12getModelNameSSyF",
+            "moduleName": "LivenessSDK",
+            "declAttributes": [
+              "Custom"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIDevice",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIDevice",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/RemoteLiveness.swift",
+      "kind": "StringLiteral",
+      "offset": 1655,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/RemoteLiveness.swift",
+      "kind": "StringLiteral",
+      "offset": 1665,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/RemoteLiveness.swift",
+      "kind": "StringLiteral",
+      "offset": 1673,
+      "length": 8,
+      "value": "\"job_id\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/RemoteLiveness.swift",
+      "kind": "StringLiteral",
+      "offset": 1683,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/RemoteLiveness.swift",
+      "kind": "StringLiteral",
+      "offset": 1691,
+      "length": 7,
+      "value": "\"error\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/RemoteLiveness.swift",
+      "kind": "StringLiteral",
+      "offset": 1700,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/RemoteLiveness.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1855,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/RemoteLiveness.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13577,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKOption.swift",
+      "kind": "FloatLiteral",
+      "offset": 241,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKOption.swift",
+      "kind": "BooleanLiteral",
+      "offset": 279,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKOption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 387,
+      "length": 5,
+      "value": "30000"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKOption.swift",
+      "kind": "IntegerLiteral",
+      "offset": 433,
+      "length": 5,
+      "value": "10000"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 475,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "Array",
+      "offset": 517,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "Array",
+      "offset": 565,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "Array",
+      "offset": 612,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "Array",
+      "offset": 661,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 695,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 731,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 772,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 863,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1234,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1266,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1304,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1348,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1384,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1423,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1465,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1509,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1544,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1631,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1718,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1757,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1801,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1842,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1885,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1931,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/InteractionUtility.swift",
+      "kind": "Array",
+      "offset": 1990,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 826,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 864,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 904,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "Array",
+      "offset": 934,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 966,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1097,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1264,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1274,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1406,
+      "length": 36,
+      "value": "\"Posisikan wajah anda kedalam frame\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1486,
+      "length": 9,
+      "value": "\"Selesai\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1539,
+      "length": 21,
+      "value": "\"Kedipkan kedua mata\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1608,
+      "length": 20,
+      "value": "\"Kedipkan mata kiri\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1677,
+      "length": 21,
+      "value": "\"Kedipkan mata kanan\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1749,
+      "length": 25,
+      "value": "\"Tolehkan kepala ke kiri\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1826,
+      "length": 26,
+      "value": "\"Tolehkan kepala ke kanan\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1893,
+      "length": 26,
+      "value": "\"Anggukkan kepala ke atas\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1962,
+      "length": 27,
+      "value": "\"Anggukkan kepala ke bawah\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2030,
+      "length": 37,
+      "value": "\"Tersenyum dengan kedua mata terbuka\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2112,
+      "length": 80,
+      "value": "\"Dekatkan wajah ke area oval dan pastikan tidak ada yang menghalangi area wajah\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 2243,
+      "length": 35,
+      "value": "\"Bersiap mengulang dalam 1.5 detik\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3224,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3646,
+      "length": 3,
+      "value": "0.8"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3675,
+      "length": 3,
+      "value": "101"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 7268,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7304,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 458,
+      "length": 17,
+      "value": "\"LivenessSDK.SDKViewController\""
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/SDKMonitoring.swift",
+      "kind": "BooleanLiteral",
+      "offset": 871,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/Camera.swift",
+      "kind": "IntegerLiteral",
+      "offset": 498,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/ahmadnizar\/Documents\/nodeflux\/ios-liveness-sdk\/LivenessSDK\/LivenessSDK\/Camera.swift",
+      "kind": "StringLiteral",
+      "offset": 628,
+      "length": 14,
+      "value": "\"camera.queue\""
+    }
+  ]
+}
